@@ -1,0 +1,21 @@
+# PDF Forget
+pages
+pdf-forge-exports
+# Files PDF 
+*Elmer_Yachak_CV.pdf
+Devops_elmer_yachak.pdf
+Cloud_security_engineer_elmer_yachak.pdf
+# Virtual Enviroments
+.venv/
+**/*.pyc
+cv.html
+### Certificacioones Free
+# Microsoft Learn
+# AWS Skill Builder (skillbuilder.aws)
+# NVIDIA Deep Learning
+# IBM (ibm.com/training)
+# Google (skills.google.com)
+# skills.github.com
+
+### Sitios Web de Entrenamiento Real (OJO: Falta confirmar)
+# https://socradar.io/trainings/ <---------> https://university.socradar.io/

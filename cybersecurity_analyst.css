@@ -1,0 +1,79 @@
+@page {
+    size: A4;
+    margin: 10mm 12mm;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111111;
+    line-height: 1.35;
+    font-size: 9.5pt;
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: center;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 6px;
+    margin-bottom: 10px;
+}
+h1 {
+    font-size: 18pt;
+    margin: 0 0 4px 0;
+    color: #003366;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.contact-info {
+    font-size: 9pt;
+    color: #333333;
+}
+.contact-info a {
+    color: #003366;
+    text-decoration: none;
+}
+section {
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 11pt;
+    color: #003366;
+    text-transform: uppercase;
+    border-bottom: 1px solid #cccccc;
+    margin: 0 0 6px 0;
+    padding-bottom: 2px;
+    letter-spacing: 0.3px;
+}
+p {
+    margin: 0 0 4px 0;
+}
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+.job-title {
+    font-style: italic;
+    font-weight: normal;
+    color: #444444;
+    margin-bottom: 4px;
+}
+ul {
+    margin: 0 0 6px 0;
+    padding-left: 16px;
+}
+li {
+    margin-bottom: 3px;
+}
+.skills-grid {
+    width: 100%;
+    border-collapse: collapse;
+}
+.skills-grid td {
+    padding: 2px 0;
+    vertical-align: top;
+}
+.skills-label {
+    font-weight: bold;
+    width: 22%;
+}

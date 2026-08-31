@@ -1,0 +1,184 @@
+@page {
+  size: A4;
+  margin: 8mm 10mm;
+  background-color: #f8fafc;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 8.5pt;
+  line-height: 1.35;
+  color: #334155;
+  margin: 0;
+  padding: 0;
+  background-color: #f8fafc;
+}
+/* Header Styles */
+.header {
+  background-color: #0f172a;
+  color: #ffffff;
+  padding: 14px 18px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+.header-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.header-title-cell {
+  vertical-align: middle;
+}
+.header-contact-cell {
+  vertical-align: middle;
+  text-align: right;
+  font-size: 8pt;
+  color: #94a3b8;
+  line-height: 1.5;
+}
+.name {
+  font-size: 18pt;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+  margin: 0 0 2px 0;
+}
+.role {
+  font-size: 10pt;
+  font-weight: 500;
+  color: #38bdf8;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.contact-item {
+  color: #cbd5e1;
+}
+
+.contact-item strong {
+  color: #38bdf8;
+}
+/* Layout Table */
+.main-layout {
+  width: 100%;
+  border-collapse: collapse;
+}
+.left-col {
+  width: 63%;
+  vertical-align: top;
+  padding-right: 12px;
+}
+.right-col {
+  width: 37%;
+  vertical-align: top;
+  padding-left: 12px;
+  border-left: 1px solid #e2e8f0;
+}
+/* Section Styles */
+.section-title {
+  font-size: 9.5pt;
+  font-weight: 700;
+  color: #0f172a;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid #2563eb;
+  padding-bottom: 2px;
+  margin: 0 0 8px 0;
+}
+.summary-text {
+  font-size: 8.5pt;
+  color: #475569;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+/* Job Experience Styles */
+.job-block {
+  margin-bottom: 9px;
+}
+.job-header {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2px;
+}
+.job-title {
+  font-size: 9pt;
+  font-weight: 700;
+  color: #1e293b;
+}
+.job-company {
+  font-size: 8.5pt;
+  font-weight: 600;
+  color: #2563eb;
+}
+.job-date {
+  text-align: right;
+  font-size: 7.5pt;
+  color: #64748b;
+  font-weight: 500;
+}
+.job-bullets {
+  margin: 3px 0 0 0;
+  padding-left: 12px;
+}
+.job-bullets li {
+  margin-bottom: 2.5px;
+  color: #334155;
+}
+.highlight {
+  font-weight: 600;
+  color: #0f172a;
+}
+/* Skills & Side Column Styles */
+.skill-group {
+  margin-bottom: 8px;
+}
+.skill-group-title {
+  font-size: 8pt;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 3px;
+  text-transform: uppercase;
+}
+.tags {
+  margin: 0;
+  padding: 0;
+}
+.tag {
+  display: inline-block;
+  background-color: #e0f2fe;
+  color: #0369a1;
+  font-size: 7.5pt;
+  font-weight: 600;
+  padding: 1.5px 5px;
+  border-radius: 3px;
+  margin-right: 2px;
+  margin-bottom: 3px;
+}
+.cert-item {
+  margin-bottom: 6px;
+}
+.cert-name {
+  font-size: 8.5pt;
+  font-weight: 700;
+  color: #0f172a;
+}
+.cert-issuer {
+  font-size: 7.5pt;
+  color: #64748b;
+}
+.edu-title {
+  font-size: 8.5pt;
+  font-weight: 700;
+  color: #0f172a;
+}
+.edu-sub {
+  font-size: 7.5pt;
+  color: #64748b;
+}
+.lang-item {
+  font-size: 8pt;
+  margin-bottom: 2px;
+}
+
