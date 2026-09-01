@@ -44,4 +44,4 @@ Extensiones utilizadas en la implementacion de este CV:
 - PDF Forge
 - Python
 
-> 🤝 Si te ayudo en algo este repositorio, porfavor no te olvides de dejar una miserable estrellita 🌟!
+> 🤝 Apoya a mas proyectos dejando tu estrellita, es gratis pero ayudas a que llegue a mas personas! 🌟!
