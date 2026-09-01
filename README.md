@@ -6,10 +6,9 @@ Este Repositorio contiene mi Curriculum Vitae, donde presento mi formación acad
 > Al finalizar no se olviden de darle a la estrellita 🌟!
 
 ## Herramientas Utilizadas
-- Python
+- Python (Weasyprint)
 - HTML
 - CSS
-- Weasyprint
 
 ## Generar CV & Formato PDF
 Para generar el CV en formato PDF ejecute:
@@ -18,9 +17,7 @@ Para generar el CV en formato PDF ejecute:
 
 ```bash
 git clone  https://github.com/elimenit/cv 
-python3 -m venv .venv 
-source .venv/bin/activate && pip3 install -r requirements.txt 
-python3 cv.py
+cd cv && bash setup.sh
 ```
 
 - Windows (PowerShell como administrador)
@@ -41,7 +38,7 @@ Set-ExecutionPolicy Restricted # Estado Normal
 ## Extensiones de Visual Studio Codium
 Extensiones utilizadas en la implementacion de este CV:
 
-- PDF Forge
+- PDF Viewer
 - Python
 
 > 🤝 Apoya a mas proyectos dejando tu estrellita, es gratis pero ayudas a que llegue a mas personas! 🌟!
