@@ -6,6 +6,7 @@ pdf-forge-exports
 Devops_elmer_yachak.pdf
 Cloud_security_engineer_elmer_yachak.pdf
 Cybersecurity_analyst_elmer_yachak.pdf
+*.pdf
 # Virtual Enviroments
 .venv/
 **/*.pyc

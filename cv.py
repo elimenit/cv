@@ -22,7 +22,7 @@ def main()-> None:
     """
     roles: list = [
         "devops",
-        "cloud_security_engineer",
+        "cloud_security",
         "cybersecurity_analyst"
     ]
     print("Generando CVS....")
